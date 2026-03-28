@@ -45,6 +45,9 @@
         <mxCell id="uNe_4Zr9oKa2wLSVIXnM-46" edge="1" parent="uNe_4Zr9oKa2wLSVIXnM-11" source="uNe_4Zr9oKa2wLSVIXnM-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uNe_4Zr9oKa2wLSVIXnM-45" value="&lt;b&gt;Yes&lt;/b&gt;">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="myfbxEG9KKaOTyqbHOKf-8" edge="1" parent="uNe_4Zr9oKa2wLSVIXnM-11" source="uNe_4Zr9oKa2wLSVIXnM-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" target="myfbxEG9KKaOTyqbHOKf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uNe_4Zr9oKa2wLSVIXnM-33" parent="uNe_4Zr9oKa2wLSVIXnM-11" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;b&gt;Credit Check Approved?&lt;/b&gt;" vertex="1">
           <mxGeometry height="120" width="110" x="20" y="410" as="geometry" />
         </mxCell>
@@ -53,6 +56,9 @@
         </mxCell>
         <mxCell id="uNe_4Zr9oKa2wLSVIXnM-45" parent="uNe_4Zr9oKa2wLSVIXnM-11" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;Sales Order Authorized &amp;amp; Released to Warehouse&lt;/b&gt;" vertex="1">
           <mxGeometry height="50" width="140" x="200" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="myfbxEG9KKaOTyqbHOKf-3" parent="uNe_4Zr9oKa2wLSVIXnM-11" style="html=1;dashed=1;whiteSpace=wrap;dashPattern=8 8;fillColor=#f9f7ed;strokeColor=#36393d;" value="&lt;font size=&quot;1&quot;&gt;&lt;i&gt;Control Activity CA-01&lt;/i&gt;&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&lt;i&gt;Verifies if customer is able to pay&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="180" x="200" y="330" as="geometry" />
         </mxCell>
         <mxCell id="uNe_4Zr9oKa2wLSVIXnM-12" parent="uNe_4Zr9oKa2wLSVIXnM-10" style="swimlane;html=1;startSize=20;fillColor=#fad7ac;strokeColor=#b46504;" value="&lt;font&gt;&lt;font&gt;Warehouse Departmen&lt;/font&gt;t&lt;/font&gt;" vertex="1">
           <mxGeometry height="710" width="760" x="390" y="20" as="geometry" />
@@ -114,7 +120,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0dS-U60xcnokmEdzdoMw" name="Page 2">
-    <mxGraphModel dx="1051" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1051" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -127,10 +133,10 @@
         <mxCell id="fgJxh3rL3IoRyrrv12xI-3" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;Goods Dispatched to Customer&lt;/b&gt;" vertex="1">
           <mxGeometry height="50" width="140" x="210" y="65" as="geometry" />
         </mxCell>
-        <mxCell id="6cYcMWqTURlJ73ICH88r-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Warehouse Department" vertex="1">
+        <mxCell id="6cYcMWqTURlJ73ICH88r-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" value="Warehouse Department" vertex="1">
           <mxGeometry height="510" width="300" x="70" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="6cYcMWqTURlJ73ICH88r-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Billing/Accounts Recievable" vertex="1">
+        <mxCell id="6cYcMWqTURlJ73ICH88r-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" value="Billing/Accounts Recievable" vertex="1">
           <mxGeometry height="510" width="700" x="370" y="20" as="geometry" />
         </mxCell>
         <mxCell id="oxwXNUYVC4XG8xv4Unu7-1" parent="6cYcMWqTURlJ73ICH88r-2" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;Dispatch Confirmation Received&amp;nbsp;&lt;/b&gt;" vertex="1">
